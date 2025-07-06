@@ -39,28 +39,22 @@ Built with **React Native + Expo**, integrated with **GPT-4 Vision** and **GPT-4
 
 > ⚠️ You must have Node.js, Expo CLI, and an OpenAI + Supabase account to run this project locally.
 
-### 1. Clone the Repo
-
-```bash
+# 1. Clone the Repository
 git clone https://github.com/your-username/nutrition-ai-app.git
 cd nutrition-ai-app
 
+# 2. Install Dependencies
 npm install
 # or
 yarn
-Set Up Environment Variables
-Create a .env file in the root and add the following:
 
-env
-Copy
-Edit
+# 3. Add Environment Variables
+# Create a .env file and paste your keys like below:
+
+# .env
 OPENAI_API_KEY=your_openai_api_key
 SUPABASE_URL=your_supabase_project_url
 SUPABASE_ANON_KEY=your_supabase_anon_key
 
-
-Start the App
-bash
-Copy
-Edit
+# 4. Start the App
 npx expo start
