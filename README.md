@@ -45,3 +45,22 @@ Built with **React Native + Expo**, integrated with **GPT-4 Vision** and **GPT-4
 git clone https://github.com/your-username/nutrition-ai-app.git
 cd nutrition-ai-app
 
+npm install
+# or
+yarn
+Set Up Environment Variables
+Create a .env file in the root and add the following:
+
+env
+Copy
+Edit
+OPENAI_API_KEY=your_openai_api_key
+SUPABASE_URL=your_supabase_project_url
+SUPABASE_ANON_KEY=your_supabase_anon_key
+
+
+Start the App
+bash
+Copy
+Edit
+npx expo start
